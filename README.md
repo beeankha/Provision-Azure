@@ -81,7 +81,7 @@ Paste the following code into the editor, keeping in mind that the name variable
   tasks:
     - name: Create resource group
       azure_rm_resourcegroup:
-        name: [esource_group_name]
+        name: [resource_group_name]
         location: eastus
       register: rg
     - debug:
